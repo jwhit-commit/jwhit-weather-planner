@@ -22,60 +22,29 @@
     <aside class="col-4 container-fluid pr-5 pl-4">
         <section>
             <h2>Search for a City</h2>
-            <input class="form-control mw-100" id="citysearch" type="text" placeholder="City name" style="max-width: 250px;">
-            <div class="d-flex"><button class="btn btn-info my-2 d-flex justify-content-end">Search</button></div>
+            <form id="citysearch">
+                <input class="form-control mw-100" id="cityname" type="text" placeholder="City name" style="max-width: 250px;">
+                <div class="d-flex"><button class="btn btn-info my-2 d-flex justify-content-end">Search</button></div>
+            </form>
         </section>
-        <section id="citybank">
+        <section>
             <hr class="d-flex mw-100">
+            <div id="citybank">
 
+            </div>
         </section>
     </aside>
     <main class="col-8 container-fluid">
         <section id="todayforcast">
-            <h2>Choose a City</h2>
-            <p></p>
-            <p></p>
-            <p></p>
+            <h2 id="todaytitle">Choose a City</h2>
+            <p id="todaytemp"></p>
+            <p id="todaywind"></p>
+            <p id="todayhum"></p>
             <hr>
         </section>
         <section>
             <h3>5-Day Forecast</h3>
-            <section id="longforecast">
-                <div>
-                    <h4></h4>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                </div>
-                <div>
-                    <h4></h4>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                </div>
-                <div>
-                    <h4></h4>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                </div>
-                <div>
-                    <h4></h4>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                </div>
-                <div>
-                    <h4></h4>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                </div>
+            <section id="longforecast" class="row">
             </section>
         </section>
     </main>
